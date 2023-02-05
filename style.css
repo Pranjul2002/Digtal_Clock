@@ -1,0 +1,39 @@
+body{
+    background-color: cyan;
+    color: white;
+}
+
+.base{
+    position: absolute;
+    border-radius: 20px;
+    width: 1600px;
+    height: 900px;
+    left: 150px;
+    top: 35px;
+}
+
+.clock-platform{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left: 400px;
+    top: 200px;
+}
+
+#time{
+    position: absolute;
+    opacity: 1.0;
+    font-size: 70px;
+    width: 450px;
+    height: 100px;
+    top: 120px;
+    left: 170px;
+}
+
+#date{
+    position: absolute;
+    width: 450px;
+    height: 100px;
+    top: 240px;
+    left: 170px;
+}
